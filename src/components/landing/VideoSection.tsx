@@ -6,7 +6,7 @@ interface VideoSectionProps {
   youtubeUrl?: string;
 }
 
-const VideoSection = ({ youtubeUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ" }: VideoSectionProps) => {
+const VideoSection = ({ youtubeUrl = "https://youtu.be/jvjIc-6OPCs?si=7vKj_4qQVrurcZUT" }: VideoSectionProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   // Extract video ID from various YouTube URL formats
